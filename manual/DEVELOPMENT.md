@@ -48,9 +48,9 @@ This will allow running of ConcreteML which is the main library used to implemen
        ``` {.bash language="bash"}
        sudo apt install python3.10-tk
        ```
-2. After installing the above required tools, you may proceed with cloning the project GitHub repository at https://github.com/scg-upm/sp-concreteML-BrainTumorClassifier.git using the following command:
+2. After installing the above required tools, you may proceed with cloning the project GitHub repository at https://github.com/sakurachu06/test-repo.git using the following command:
    ``` {.bash language="bash"}
-   git clone https://github.com/scg-upm/sp-concreteML-BrainTumorClassifier.git
+   git clone https://github.com/sakurachu06/test-repo.git
    ```
 4. Download the required packages for running the client-server system.
    - If using Windows:
@@ -61,4 +61,4 @@ This will allow running of ConcreteML which is the main library used to implemen
      ``` {.bash language="bash"}
      pip install -r requirements.txt
      ```
-5. Once the required packages are successfully installed, you can now run the client-server system. Refer to the [User Manual](HELP.md) for instructions on running the system.
+5. Once the required packages are successfully installed, you can now run the client-server system. Refer to the https://github.com/sakurachu06/test-repo/blob/main/manual/HELP.md for instructions on running the system.
