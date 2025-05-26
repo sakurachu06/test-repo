@@ -1,22 +1,18 @@
 # User Manual
 
 ## Limitations
-The system is currently limited to multi-class brain tumor classification and is trained on only five classes which are:
-1. Normal
-2. Ependymoma
-3. Glioblastoma
-4. Medulloblastoma
-5. Pilocytic Astrocytoma
+The system is currently limited to binary classification of WDTC recurrence which are:
+1. 0 - No
+2. 1 - Yes
 
 ## Installation and System Set Up
-Please refer to the [Development Manual](DEVELOPMENT.md) for instructions on setting up the system.
+Please refer to the [Development Manual](https://github.com/sakurachu06/test-repo/blob/main/manual/DEVELOPMENT.md) for instructions on setting up the system.
 
 ## Input File Structure
-The client-server interaction will begin once the client submits its input data to the client GUI application. The input must be a CSV file consisting of brain cancer gene expression data with the following structure:
-1. The input consists of a column for the sample's name or ID number. Value in this column may be a string (if name is used) or an integer (if ID is used).
-2. The input has 54,675 columns representing genes. Value in these columns must be floats.
+The client-server interaction will begin once the client submits its input data to the client GUI application. The input must be a CSV file consisting of patient health data with the following structure:
+1.  It contains 17 columns, in which 16 of them are features. The column “Recurred” is the target variable.
 
-Note that the columns for genetic features must follow the same genes used in the training dataset available at https://www.kaggle.com/datasets/brunogrisci/brain-cancer-gene-expression-cumida. 
+Note that the columns for health data must follow the same format used in the training dataset available at https://archive.ics.uci.edu/dataset/915/differentiated+thyroid+cancer+recurrence. 
 
 For demonstration and testing purposes, there are sample input files provided in the **testing-samples** folder found in the project folder.
 
