@@ -6,6 +6,6 @@ The client-server system presented here is a fully homomorphic encryption-based 
 ## Installation and Set Up
 Users may set up the system by:
 Manual Set Up
-   - Please refer to the [Development Manual](https://github.com/scg-upm/sp-concreteML-BrainTumorClassifier/blob/main/manual/DEVELOPMENT.md) for instructions on setting up the system from scratch.
+   - Please refer to the [Development Manual](https://github.com/sakurachu06/test-repo/blob/main/manual/DEVELOPMENT.md) for instructions on setting up the system from scratch.
 
-Once done with the system set-up, users can refer to the [User Manual](https://github.com/scg-upm/sp-concreteML-BrainTumorClassifier/blob/main/manual/HELP.md) for instructions on running the system. 
+Once done with the system set-up, users can refer to the [User Manual](https://github.com/sakurachu06/test-repo/blob/main/manual/HELP.md) for instructions on running the system. 
